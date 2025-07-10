@@ -9,10 +9,14 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import Countdown from "./components/Countdown";
+import Counter from "./components/Counter"
+import Controller from "./components/Controller"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Counter/>
+    <Countdown/>
+    <Controller/>
   </React.StrictMode>,
 )
